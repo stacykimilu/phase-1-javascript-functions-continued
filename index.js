@@ -14,8 +14,8 @@ function saturdayFun(activity = "roller-skate") {
   }
   
   const encouragingPromptFunction = wrapAdjective("*");
-  console.log(encouragingPromptFunction("a hard worker")); // Output: "You are *a hard worker*!"
+  console.log(encouragingPromptFunction("a hard worker"));
   
   const encouragingPromptFunction2 = wrapAdjective("||");
-  console.log(encouragingPromptFunction2("a dedicated programmer")); // Output: "You are ||a dedicated programmer||!"
+  console.log(encouragingPromptFunction2("a dedicated programmer")); 
   
