@@ -1,4 +1,4 @@
-// code your solution here
+// write code solution here
 function saturdayFun(activity = "roller-skate") {
     return `This Saturday, I want to ${activity}!`;
   }
@@ -13,9 +13,9 @@ function saturdayFun(activity = "roller-skate") {
     }
   }
   
-  const encouragingPromptFunction = wrapAdjective("*");
-  console.log(encouragingPromptFunction("a hard worker"));
+  const encouragingPromptFunction1 = wrapAdjective("*");
+  console.log(encouragingPromptFunction1("a hardworking champ"));
   
-  const encouragingPromptFunction2 = wrapAdjective("||");
+  const encouragingPromptFunction2 = wrapAdjective("%%");
   console.log(encouragingPromptFunction2("a dedicated programmer")); 
   
